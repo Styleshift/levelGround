@@ -22,11 +22,11 @@
 
 
 nav {
-    height: 15vh;
+    height: 10vh;
     background-color: #66718a;
 }
 header {
-    height: 100vh;
+    height: 110vh;
     background-color: #66718a;
 }
 
@@ -45,11 +45,11 @@ header {
 }
 
 .volunteer {
-    height: 70dvh;
+    height: 80dvh;
 }
 
 footer {
-    height: 30dvh;
+    height: 40dvh;
     background-color: #161c2a;
 }
 
@@ -398,7 +398,7 @@ a{
 /** Landscape Mode fix **/
 
 @media screen and (min-width: 800px) {
-    footer {
-        height: 60vh;
-    }
+
+    
+   
 }
