@@ -1,0 +1,392 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*** Erase Me Later ****/
+
+/* nav, header, section, .wrapperGym, .wrapperVisit, footer {
+    border: 2px solid black;
+}
+
+.lowFooter {
+    border: 2px solid white;
+}
+
+ */
+
+/*** Layout ****/
+
+
+nav {
+    height: 15vh;
+    background-color: #66718a;
+}
+header {
+    height: 100vh;
+    background-color: #66718a;
+}
+
+.why, .schedule {
+    height: 100vh;
+}
+
+.schedule {
+    background-color: #dbdfe2;
+}
+
+.wrapperGym, .wrapperVisit {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.volunteer {
+    height: 70dvh;
+}
+
+footer {
+    height: 30dvh;
+    background-color: #161c2a;
+}
+
+.headerSectionLeft {
+    width: 50%;
+    height: 60%;
+    float: left;
+}
+
+.headerSectionRight{
+    width: 50%;
+    height: 60%;
+    float: right;
+}
+
+hr {
+    color: white;
+    margin-top: 200px;
+    border-top: 1px solid white;
+    width: 95%;
+    margin: auto;
+}
+
+
+
+
+/**** Flex Box ****/
+
+nav {
+    opacity: 0.80;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+ul {
+    display: flex;
+    color: white;
+    font-size: 12px;
+}
+
+
+.lowFooter {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+
+/*** Content ***/
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.why {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+p {
+    font-size:  2vw;
+    margin: 20px;
+    width: 55%;
+}
+
+.volunteer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.blankButton {
+    border-radius: 0%;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid black;
+    width: 150px;
+}
+
+.colorButton {
+    border-radius: 0%;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    background-color: #dbdfe2;
+    border: 2px solid black;
+    width: 150px;
+}
+
+.donateButton {
+    border-radius: 8%;
+    padding: 10px 20px 10px 20px;
+    width: 100px;
+    color:#66718a
+}
+
+.box {
+    background-color: #647689;
+    height: 30%;
+    width: 50%
+}
+
+.smallText {
+    font-size: 1.2vw;
+    margin:20px;
+}
+
+.wrapperGym, .wrapperVisit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    text-align: center;
+    font-size: 1vw;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.headerH1 {
+    text-align: center;
+    font-size: 4vw;
+    margin: 20px;
+}
+
+.headerP {
+    width: 70%;
+    font-size: 2vw;
+    text-align: center;
+    margin: 40px;
+    margin-bottom: 100px;
+}
+
+a {
+    font-size: 22px;
+}
+
+
+a:hover {
+    color: blue;
+}
+
+a.Wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+    font-size: 1.5vw;
+}
+
+nav{
+    display: flex;
+}
+
+.logoWrapper {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.blankButton:hover, .colorButton:hover {
+    background-color: #647689;
+    color: white;
+}
+
+span {
+    font-size: 1.5vw;
+    margin: 40px;
+    align-self: space-between;
+}
+
+.bbI {
+    font-size: 1vw;
+    color: black;
+}
+
+img { 
+    height: 100px;
+    width: 100px;
+}
+
+.video {
+    margin: 500px;
+    padding: 500px;
+    height: 200px;
+    width: 400px;
+}
+
+.footerFont {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1vw;
+    color: #475767;
+}
+.headerSectionRight > p {
+    font-size: 12px;
+    color: white;
+}
+
+li {
+    padding-right: 20px;
+}
+
+.fa-brands fa-facebook-square {
+    height: 100px;
+}
+
+.address {
+    text-align: left;
+    width: 200px
+}
+
+.headerSectionRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/*** Media Query ***/
+
+/** Mobile Layout ***/
+
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 6vw;
+  }
+
+  p {
+    width: 70%;
+    font-size: 3vw;
+  }
+
+  nav{
+    align-items: space-around;
+  }
+
+
+a{
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.wrapperGym, .wrapperVisit {
+    width: 100%;
+    height: 100vh;
+    float: left;
+}
+
+.box {
+    width: 70%;
+    height: 20%;
+}
+
+.smallText {
+    font-size: 3vw;
+}
+
+.headerH1, .headerP {
+    font-size: 20px;
+} 
+
+.bbI {
+    font-size: 3vw;
+}
+
+.headerSectionRight > p {
+    font-size: 12px;
+    color: white;
+}
+
+.footerFont {
+    font-size: 9px;
+}
+
+.volunteer {
+    height: 100vh;
+    clear: left;
+}
+
+.footer {
+    height: 300vh;
+}
+
+.address {
+    font-size: 1vw;
+    align-self: flex-end;
+    width: 75%;
+}
+
+.logoWrapper {
+    width: 5%;
+}
+
+a{ 
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.donateButton {
+    margin-right: 30px;
+}
+
+.headerSectionRight {
+    justify-content: flex-start;
+}
+
+}
+
+/** Landscape Mode fix **/
+
+@media screen and (min-width: 800px) {
+    footer {
+        height: 60vh;
+    }
+}
