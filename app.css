@@ -57,14 +57,14 @@ footer {
     width: 50%;
     height: 60%;
     float: left;
-    padding: 30px;
+    padding: 50px;
 }
 
 .headerSectionRight{
     width: 50%;
     height: 60%;
     float: right;
-    padding: 30px;
+    padding: 50px;
 }
 
 hr {
@@ -85,7 +85,7 @@ nav {
     position: fixed;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     color: white;
 }
@@ -221,9 +221,6 @@ a.Wrapper{
     font-size: 1.5vw;
 }
 
-nav{
-    display: flex;
-}
 
 .logoWrapper {
     width: 20%;
@@ -284,7 +281,8 @@ li {
 }
 
 .address {
-    text-align: left;
+    text-align: right;
+    margin: 0;
     width: 200px
 }
 
