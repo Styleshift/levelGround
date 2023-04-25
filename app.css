@@ -388,20 +388,27 @@ a{
     margin-right: 0;
 }
 
-.donateButton {
-    margin-right: 30px;
+
+.headerSectionLeft {
+    padding: 10px;
 }
 
 .headerSectionRight {
     justify-content: flex-start;
+    padding: 10px;
+}
+.lowFooter {
+    padding: 15px;
 }
 
 }
 
 /** Landscape Mode fix **/
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) and (max-device-height: 1200px) {
 
-    
+    footer {
+        height: 400px;
+    }
    
 }
