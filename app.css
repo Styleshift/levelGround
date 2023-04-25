@@ -300,6 +300,10 @@ ul {
     list-style-type: none;
 }
 
+.lvlGMM {
+    text-align: right;
+}
+
 #background-video {
   width: 100vw;
   height: 80vh;
