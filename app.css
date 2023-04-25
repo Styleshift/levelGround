@@ -15,8 +15,8 @@
 .lowFooter {
     border: 2px solid white;
 }
-
  */
+
 
 /*** Layout ****/
 
@@ -57,12 +57,14 @@ footer {
     width: 50%;
     height: 60%;
     float: left;
+    padding: 30px;
 }
 
 .headerSectionRight{
     width: 50%;
     height: 60%;
     float: right;
+    padding: 30px;
 }
 
 hr {
@@ -239,7 +241,6 @@ nav{
 span {
     font-size: 1.5vw;
     margin: 40px;
-    align-self: space-between;
 }
 
 .bbI {
@@ -293,6 +294,14 @@ li {
     align-items: flex-end;
 }
 
+.lowFooter {
+    padding: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
 #background-video {
   width: 100vw;
   height: 80vh;
@@ -317,10 +326,6 @@ li {
   p {
     width: 70%;
     font-size: 3vw;
-  }
-
-  nav{
-    align-items: space-around;
   }
 
 
