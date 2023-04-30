@@ -144,6 +144,7 @@ p {
     background-color: white;
     border: 2px solid black;
     width: 150px;
+    cursor: pointer;
 }
 
 .colorButton {
@@ -153,13 +154,15 @@ p {
     background-color: #dbdfe2;
     border: 2px solid black;
     width: 150px;
+    cursor: pointer;
 }
 
 .donateButton {
     border-radius: 8%;
     padding: 10px 20px 10px 20px;
     width: 100px;
-    color:#66718a
+    color:#66718a;
+    cursor: pointer;
 }
 
 .box {
@@ -206,8 +209,12 @@ header {
 
 a {
     font-size: 22px;
+    cursor: pointer;
 }
 
+button {
+    cursor: pointer;
+}
 
 a:hover {
     color: blue;
@@ -438,6 +445,11 @@ a{
     footer {
         height: 400px;
     }
+<<<<<<< HEAD
 
   
 }
+=======
+   
+}
+>>>>>>> 1e4cdc3e9ee69d17ad0096dfb7265f1e815b5a4b
