@@ -317,6 +317,12 @@ ul {
   z-index: -1;
 }
 
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+
 /*** Media Query ***/
 
 /** Mobile Layout ***/
@@ -432,5 +438,6 @@ a{
     footer {
         height: 400px;
     }
-   
+
+  
 }
